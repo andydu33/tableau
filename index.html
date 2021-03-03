@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tableau</title>
+    <link rel="stylesheet" href="tableau.css">
+</head>
+
+<body>
+    
+    <table>
+        <caption></caption>
+        <thead>
+            <tr class="ligne">
+                <th scope="col">nom</th>
+                <th scope="col">prenom</th>
+                <th scope="col">age</th>
+                <th scope="col">lieu de naissance</th>
+                <th scope="col">adresse</th>
+                <th scope="col">sexe</th>
+                <th rowspan="3">année</th>
+                <th scope="col">pasion</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>personne 1</td>
+                <td>david</td>
+                <td>33</td>
+                <td>tours</td>
+                <td>495 rue </td>
+                <td>homme</td>
+                <td>02/27/88</td>
+                <td><a href="https://www.youtube.com/watch?v=UfI9_kMiS78">ma plus grande passion</a></td>
+            </tr>
+            <tr>
+                <td>personne 2</td>
+                <td>alba</td>
+                <td>20</td>
+                <td>la teste</td>
+                <td>12 avenue</td>
+                <td>femme</td>
+                <td>05/04/01</td>
+                <td><a href="https://www.youtube.com/watch?v=u5Ho1trvlro&t=27s">ma vie</a></td>
+            </tr>
+            <tr>
+                <td>personne 3</td>
+                <td>george</td>
+                <td>55</td>
+                <td>paris</td>
+                <td>123 avenue</td>
+                <td>homme</td>
+                <td>05/07/66</td>
+                <td><a href="https://www.youtube.com/watch?v=TU4wnVrZXo4">ma musique preférée</a></td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>personne 4</td>
+                <td>alice</td>
+                <td>45</td>
+                <td>marseil</td>
+                <td>55 rue de lille</td>
+                <td>femme</td>
+                <td>12/25/76</td>
+                <td><a href="https://www.youtube.com/watch?v=8ulsc0RsyBk">la voltige</a></td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <table>
+        <caption>Températures moyennes mensuelles des 3 villes les plus humide de France.</caption>
+        <tr>
+            <td class="premiere">&nbsp;</td>
+            <th scope="col">Paris</th>
+            <th scope="col">Marseille</th>
+            <th scope="col">Lyon</th>
+        </tr>
+        <tr>
+            <th scope="row">Juin</th>
+            <td>22°C</td>
+            <td>28°C</td>
+            <td>26°C</td>
+        </tr>
+        <tr>
+            <th scope="row">Juillet</th>
+            <td>24°C</td>
+            <td>30°C</td>
+            <td>28°C</td>
+        </tr>
+    </table>
+
+    <table id="table1">
+        <tr>
+          <th>david</th>
+          <th>alba</th>
+          <th>alice</th>
+        </tr>
+        <tr>
+          <td id="nested">
+            <table id="table2">
+              <tr>
+                <td>33 ans</td>
+                <td>tours</td>
+                <td>homme</td>
+              </tr>
+            </table>
+          </td>
+          <td>20 ans</td>
+          <td>45 ans</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.youtube.com/watch?v=UfI9_kMiS78">ma plus grande passion</a></td>
+          <td><a href="https://www.youtube.com/watch?v=u5Ho1trvlro&t=27s">ma vie</a></td>
+          <td><a href="https://www.youtube.com/watch?v=8ulsc0RsyBk">la voltige</a></td>
+        </tr>
+      </table>
+      <div id="image"></div> 
+</body>
+
+</html>

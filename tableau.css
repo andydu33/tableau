@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    font-size: xx-large;
+    color: #7a7a7a;
+}
+th, td {
+    border: 10px solid #3921DE;
+
+}
+.ligne {
+    color: #ffffff;
+    background: rgb(8, 8, 8);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+}
+.premiere {
+    background-color: #2178DE;
+}
+.nested {
+    background-color: unset;
+}
+body {
+   background-image:
+   url("img/108megapx.jpg") ;
+   background-color: #0e1113;
+   background-position: left;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+/* #image {
+    background-image: url(img/108megapx.jpg);
+} */
